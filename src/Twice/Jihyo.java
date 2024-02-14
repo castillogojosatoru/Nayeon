@@ -17,14 +17,14 @@ public class Jihyo {
         
        Scanner scn = new Scanner(System.in);
        
-       int fahrenheit;
        double celsius;
+       double fahrenheit;
        
-        System.out.print("Enter Fahrenheit: ");
-        fahrenheit = scn.nextInt();
+        System.out.print("Enter Celsius: ");
+        celsius = scn.nextInt();
         
-        celsius = (fahrenheit - 32.0) *(5/9.0);
-        System.out.println("Fahrenheit: " +fahrenheit+"\n"+"Fahrenheit to Celsius: "+celsius);
+        fahrenheit = (celsius - 32.0) *(5/9.0);
+        System.out.println("Celsius: " +celsius+"\n"+"Celsius to Fahrenheit: "+fahrenheit);
     }
     
 }
