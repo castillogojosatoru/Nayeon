@@ -23,7 +23,7 @@ public class Jihyo {
         System.out.print("Enter Celsius: ");
         celsius = scn.nextInt();
         
-        fahrenheit = (celsius - 32.0) *(5/9.0);
+        fahrenheit = (celsius * 9/5) + 32;
         System.out.println("Celsius: " +celsius+"\n"+"Celsius to Fahrenheit: "+fahrenheit);
     }
     
