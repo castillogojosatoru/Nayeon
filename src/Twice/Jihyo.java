@@ -20,11 +20,11 @@ public class Jihyo {
        double celsius;
        double fahrenheit;
        
-        System.out.print("Enter Celsius: ");
-        celsius = scn.nextInt();
-        
-        fahrenheit = (celsius * 9/5) + 32;
-        System.out.println("Celsius: " +celsius+"\n"+"Celsius to Fahrenheit: "+fahrenheit);
+       System.out.print("Enter Celsius: ");
+       celsius = scn.nextInt();
+       
+       fahrenheit = (celsius * 9/5) + 32;
+       System.out.println("Celsius: " +celsius+"\n"+"Celsius to Fahrenheit: "+fahrenheit);
     }
     
 }
